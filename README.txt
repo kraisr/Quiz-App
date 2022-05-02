@@ -1,5 +1,5 @@
 Instructions: 
--> Pretty Simple, just download the files, compile, and run the main method in the MainMenu.java method
+-> Pretty Simple, just download the files, compile, and run the Server.java Class then Login.java to start the program.
 
 Who submitted what:
 -> (Hyungchul Kim) submitted report on Brightspace
