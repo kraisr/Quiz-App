@@ -1,8 +1,8 @@
 Instructions: 
--> Pretty Simple, just download the files, compile, and run the Server.java Class then Login.java to start the program.
+-> Pretty Simple, just download the files, compile, and run the Server.java Class then Login.java to start the program. Do not run the QuizMenu.java file.
 
 Who submitted what:
--> (Hyungchul Kim) submitted report on Brightspace
+-> (Corey Tuinstra) submitted report on Brightspace
 -> (insert whomever inserted) submitted Code on Vocareum
 
 
@@ -29,9 +29,13 @@ Course:
 This is an class that creates an object that holds the information about a course, specifically the course name and the quizzes within the course. This was tested with a main method and whenever it's referenced in another class.
 
 QuizMenu:
-This is the class that handles the main method and displays the output menu. It includes all of the methods to help implement different classes and objects. Each method within Quiz Menu was tested and it's furthered been tested by its own main method.
+Contains the old methods from the previous terminal version of the code
 
 Submission:
 This is a class that is an object of different submissions. It holds the name of the User who submits,  the Quiz being taken, Course of the quiz, response list, timestamp, boolean if it's graded, and a list of grades. This has been tested with a test class and further tested with the test method.
 
+Server:
+Server side of the code and returns the information requested by the user. Handles the communication and sending information to the Login class. Allows concurrency and multi-threading.
 
+Login:
+Contains the new GUI menu for student and user. Handles all the functionality in the code and replaces the old QuizMenu. Allows the user to login as student or teacher and depending on that displays two different menus. For teacher, the menu has the functionality to edit and create quizes and courses. Also they have a common future with the student, which is the edit account option where they can change username and password or delete an account. On student side, they get to edit their account, take quiz and view submissions. The take quiz option allows the student to pick course and a quiz they want to take. The view submission views all of the submissions for a specific quiz made by the user that is logged in.
