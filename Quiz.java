@@ -3,6 +3,24 @@ import java.io.*;
 import java.util.*;
 import java.sql.Timestamp;
 
+/**
+ * Project 4 -- Quiz.java class
+ *
+ * This is an object that holds questions with a quiz name. The Quiz class includes several methods 
+ * that allow users to interact with quizzes in a variety of ways. The Constructors let teachers 
+ * create quizzes manually or by entering a quiz file. The methods provide the functionality to edit quizzes, 
+ * calculate the max score of quizzes, randomize the order of quiz questions, create submission strings for 
+ * both teachers and students to view individual quiz results, and to access the submissions for a 
+ * specific student. There is also an equals method to help teachers delete quizzes and a toString method 
+ * to print quiz details.
+ 
+ *
+ * @author Sean Nowak, lab sec L24 
+ *
+ * @version April 11, 2022
+ *
+ */
+
 public class Quiz implements Serializable{
     // Three Quiz fields, name of quiz, arraylist of questions, and arraylist of submissions
     private String name;
