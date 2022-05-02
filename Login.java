@@ -2368,8 +2368,8 @@ public class Login extends JComponent implements Runnable {
             ioe.printStackTrace();
         }
     }
-    
-    
+
+
     public ArrayList<User> readUserArrayList(Socket socket) {
         try {
             ObjectInputStream objectInput = new ObjectInputStream(socket.getInputStream());
@@ -2395,7 +2395,7 @@ public class Login extends JComponent implements Runnable {
             ioe.printStackTrace();
         }
     }
-    
+
     public ArrayList<Submission> readSubmissionsArrayList(Socket socket) {
         try {
             ObjectInputStream objectInput = new ObjectInputStream(socket.getInputStream());
@@ -2421,6 +2421,6 @@ public class Login extends JComponent implements Runnable {
             ioe.printStackTrace();
         }
     }
-    
+
 
 }
