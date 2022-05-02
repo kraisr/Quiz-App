@@ -7,6 +7,15 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * Project 5 - Login.java
+ * <p>
+ * This Class creates the complex Graphical User Interface that the user interacts with our application in.
+ *
+ * @author Sean Nowak
+ * @version May 2, 2022
+ */
+
 public class Login extends JComponent implements Runnable {
     Login login;
 
