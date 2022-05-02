@@ -128,7 +128,7 @@ public class Submission {
             }
             bufferedWriter.write(String.valueOf(submissionList));
             bufferedWriter.close();
-        } catch(IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
@@ -147,7 +147,7 @@ public class Submission {
             for (int i = 0; i < getGrades().size(); i++) {
                 readableGrades += submission.getGrades().get(i) + ",";
             }
-            String submissionDetail = String.format("Student: %s\nResponses: %s\nCourse: %s\nQuiz: %s\n"+
+            String submissionDetail = String.format("Student: %s\nResponses: %s\nCourse: %s\nQuiz: %s\n" +
                             "Time: %s\nGraded: %s\nGrades: %s\n",
                     submission.getStudent().getUsername(), readableResponses,
                     submission.getCourseOfQuiz().getCourseName(),
@@ -161,6 +161,7 @@ public class Submission {
 
 
     }
+
     public static ArrayList<Submission> readSubmissions(Class currentClass) {
         BufferedReader reader;
         try {
