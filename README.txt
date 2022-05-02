@@ -3,7 +3,7 @@ Instructions:
 
 Who submitted what:
 -> (Corey Tuinstra) submitted report on Brightspace
--> (insert whomever inserted) submitted Code on Vocareum
+-> (Sean Nowak) submitted Code on Vocareum
 
 
 
