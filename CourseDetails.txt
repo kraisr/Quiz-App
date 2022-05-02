@@ -1,0 +1,43 @@
+Course: Planet Science
+Quiz_Name: Planet Size Quiz
+Question: What is the biggest Planet?
+Weight: 5
+Answer: Jupiter
+Correct_Answer: Earth
+Quiz_Name: Livable Planets Quiz
+Question: What Planets do Humans live on?
+Weight: 10
+Correct_Answer: Earth
+Answer: Mars
+Course: English Premier League
+Quiz_Name: Best Team
+Question: Who is the best EPL Team right now?
+Weight: 10
+Answer: Manchester City
+Correct_Answer: Liverpool
+Quiz_Name: Best Player
+Question: Who is the best EPL Player
+Weight: 5
+Correct_Answer: Christian Pulisic
+Answer: Salah
+Answer: Henderson
+Question: Who is the best Arsenal Player?
+Weight: 5
+Correct_Answer: Saca
+Answer: Oliguard
+Answer: Lacazette
+Question: Who is the best Manchester City Player?
+Weight: 5
+Correct_Answer: Degroiner
+Answer: Sterling
+Answer: Silva
+Course: new course
+Quiz_Name: new quiz
+Question: new q
+Weight: 5
+Correct_Answer: r
+Answer: w
+Question: q2
+Weight: 4
+Correct_Answer: right
+Answer: wrong

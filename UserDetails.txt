@@ -1,0 +1,6 @@
+Username: student
+Password: pass
+Teacher: false
+Username: teacher
+Password: word
+Teacher: true
