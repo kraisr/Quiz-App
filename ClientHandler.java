@@ -37,7 +37,6 @@ public class ClientHandler implements Runnable { //a thread
             while (true) {
 
 
-
                 ObjectOutputStream objectOutput = new ObjectOutputStream(clientSocket.getOutputStream());
                 objectOutput.writeObject(getInfoCourseArray());
 
@@ -114,8 +113,8 @@ public class ClientHandler implements Runnable { //a thread
         info.setCourses(courses);
         CourseInfoHandler.writeCourseInfo(info);
     }
-    
-    public static void sendUserInfo(Socket socket){
+
+    public static void sendUserInfo(Socket socket) {
         try {
             ObjectOutputStream objectOutput = new ObjectOutputStream(socket.getOutputStream());
             objectOutput.writeObject(getUserInfo());
@@ -123,11 +122,11 @@ public class ClientHandler implements Runnable { //a thread
             ioe.printStackTrace();
         }
     }
-    
+
     public static ArrayList<User> getUserInfo() {
         return LoggingIn.readUserInfo();
     }
-    
+
     public static void receiveUserInfo(Socket socket) {
         try {
             ObjectInputStream objectInput = new ObjectInputStream(socket.getInputStream());
@@ -162,6 +161,5 @@ public class ClientHandler implements Runnable { //a thread
     }
 
 }
-
 
 
