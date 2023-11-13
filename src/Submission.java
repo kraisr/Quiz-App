@@ -2,11 +2,10 @@ import java.io.*;
 import java.util.*;
 
 /**
- * Project 4 - Submission.java Class
- * <p>
+ * Submission.java
+ *
  * This class handles the submission to of a certain quiz object using
  *
- * @author Corey Tuinstra
  * @version March 29, 2022
  */
 public class Submission {

@@ -2,12 +2,11 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * Project 5 - Server.java
- * <p>
+ * Server.java
+ * 
  * This class is the server that accepts the socket connection from the client and handles the execution of
  * threads upon user's request.
  *
- * @author Hyungchul Kim
  * @version May 2, 2022
  */
 public class Server {

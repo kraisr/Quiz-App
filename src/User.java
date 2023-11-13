@@ -1,9 +1,8 @@
 /**
- * Project 4 - User.java Class
- * <p>
+ * User.java
+ * 
  * Handles the information about the user object which is user in other classes
  *
- * @author Corey Tuinstra
  * @version April 11, 2022
  */
 public class User {

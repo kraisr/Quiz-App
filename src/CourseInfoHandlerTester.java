@@ -1,17 +1,15 @@
 import java.util.ArrayList;
 
 /**
+ * CourseInfoHandlerTester.java
+ * 
  * This is a tester class for the CourseInfoHandler class. This class creates a Class class and write it to txt file
  * called CourseDetails.txt using the writeCourseInfo() method in the CourseInfoHandler class and then reads using the
  * readCourseInfo() method in the CourseInfoHandler class which reads from CourseDetails.txt and returns an arraylist
  * of Courses and then using if statements and for loops it checks if the original course arraylist to the one after
  * writing and reading to see if it's the same if successfully it should output:
  * "Course 1 Test Passed\n Course 2 Test Passed\n" and then finish
- * <p>
- * <p>
- * Purdue University -- CS18000 -- Spring 2022 -- Project 4 -- Course Info Handler Tester
- *
- * @author Rishab Koka CS180-L24
+ * 
  * @version April 11th, 2022
  */
 

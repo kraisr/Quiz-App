@@ -2,15 +2,14 @@ import java.util.*;
 import java.io.Serializable;
 
 /**
- * Project 4 -- Question.java class
- * <p>
+ * Question.java
+ * 
  * This is an object to hold questions and their information in.
  * The Question class includes several methods that allow users to
  * interact with question objects however they please. For instance,
  * it allows teachers to edit specific question attributes like point
  * value and to randomize answer choices if desired.
  *
- * @author Sean Nowak, lab sec L24
  * @version April 11, 2022
  */
 

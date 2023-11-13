@@ -5,11 +5,10 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * Project 5 - ClientHandler.java
- * <p>
+ * ClientHandler.java
+ * 
  * This Class is a thread that is explicitly made to run client-requested tasks by the server.
  *
- * @author Hyungchul Kim, Rishab Koka
  * @version May 2, 2022
  */
 public class ClientHandler implements Runnable { //a thread

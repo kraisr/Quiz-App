@@ -2,13 +2,12 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
+ * Course.java
+ * 
  * This class is the course class. The course class handles information about the course such as the
  * String courseName, User owner, ArrayList<Quiz> quizzes. The Course class also has methods that mutate
  * and get the fields
- * <p>
- * Project 4 - Course.java Class
  *
- * @author Corey Tuinstra
  * @version April 11, 2022
  */
 public class Course implements Serializable {

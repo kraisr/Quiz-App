@@ -4,7 +4,7 @@ import java.util.*;
 import java.sql.Timestamp;
 
 /**
- * Project 4 -- Quiz.java class
+ * Quiz.java
  *
  * This is an object that holds questions with a quiz name. The Quiz class includes several methods 
  * that allow users to interact with quizzes in a variety of ways. The Constructors let teachers 
@@ -13,9 +13,7 @@ import java.sql.Timestamp;
  * both teachers and students to view individual quiz results, and to access the submissions for a 
  * specific student. There is also an equals method to help teachers delete quizzes and a toString method 
  * to print quiz details.
- 
  *
- * @author Sean Nowak, lab sec L24 
  *
  * @version April 11, 2022
  *

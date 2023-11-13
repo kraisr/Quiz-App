@@ -6,12 +6,11 @@ import java.util.*;
 import java.sql.Timestamp;
 
 /**
- * Project 4 - QuizMenu.java Class
- * <p>
+ * QuizMenu.java
+ * 
  * This Class handles all the user I/O for the project and uses the methods from the other classes to
  * perform the I/O tasks
  *
- * @author Corey Tuinstra
  * @version April 11, 2022
  */
 

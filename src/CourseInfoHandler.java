@@ -2,16 +2,14 @@ import java.io.*;
 import java.util.ArrayList;
 
 /**
+ * CourseInfoHandler.java
+ * 
  * This program handles the data and makes use that data persisted between different runnings of the program.
  * It does this by storing the data about courses and it's quizzes in a text file called CourseDetails.txt using the
  * writeCourseInfo() method. The data persists from one session to another through the use of the readCourseInfo()
  * method which reads the data in CourseDetails.txt and creates and instantiates all the course, quiz, and question
  * objects.
- * <p>
- * <p>
- * Purdue University -- CS18000 -- Spring 2022 -- Project 4 -- Course Info Handler
  *
- * @author Rishab Koka CS180-L24
  * @version April 11th, 2022
  */
 

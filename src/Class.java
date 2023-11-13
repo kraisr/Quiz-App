@@ -1,12 +1,11 @@
 import java.util.ArrayList;
 
 /**
+ * Class.java
+ * 
  * This program handles the all the courses created and adds them to the courses arraylist using mutator methods.
  * They can also be removed using mutators and other classes can use it using the getter.
- * <p>
- * Project 4 Class class
- *
- * @author Corey Tuinstra
+ * 
  * @version April 11, 2022
  */
 public class Class {

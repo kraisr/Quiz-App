@@ -7,14 +7,13 @@ import java.util.Objects;
 import java.util.Scanner;
 
 /**
+ * LoggingIn.java
+ * 
  * The LoggingIn class handles method for the login process such as checking if the user the is trying to
  * sign in is a user in the system and checking if a user already exists when creating a new user.
  * This class has one field that is an Arraylist<User> which stores all the users. There are also methods
  * that handle writing and reading the user information to a text file.
- * <p>
- * Project 4 LoggingIn.java class
- *
- * @author Corey Tuinstra
+ * 
  * @version April 11, 2022
  */
 public class LoggingIn {
